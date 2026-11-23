@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Greyfoot SEEDFIRE
+Comment=Inspect and prepare a Greyfoot cloud RIG
+Exec=sh -c 'cd "$(dirname "$1")" && ./run.sh' dummy %k
+Terminal=true
+Categories=Development;Utility;
