@@ -1,0 +1,13 @@
+{
+  "release":"0.2.0-scaffold",
+  "deployment_mode":"local_first",
+  "main_rig":"this_computer",
+  "pilot_name":"Greyfoot",
+  "identity_source":"private_STARTFIRE_003_payload",
+  "local_runtime":"ollama",
+  "default_model":"qwen3:8b",
+  "corporate_rigs":{"role":"attachments","interaction":"authorized_user_session_UI"},
+  "browser_policy":{"chrome_is_tool_not_primary_interface":true,"reuse_user_authenticated_session":true,"never_store_corporate_passwords":true},
+  "mindvault":{"source":"Cloudmind","restore_mode":"manifest_verified_portable_copy","github_payload":false},
+  "governance":{"approval_required_for_system_changes":true,"approval_required_for_external_actions":true,"record_receipts":true}
+}
